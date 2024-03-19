@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weatherman.Core", "src\Weatherman.Core\Weatherman.Core.csproj", "{AE865189-F955-49B3-99CD-9BDBB18C2DA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weatherman.Api", "src\Weatherman.Api\Weatherman.Api.csproj", "{A5CE1BBA-E950-4167-9FB8-F5D211E5FE1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04C62A7F-E702-4208-9B4C-8AC57EF0A6E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weatherman.Infrastructure", "src\Weatherman.Infrastructure\Weatherman.Infrastructure.csproj", "{EA3708D2-BE0A-492D-A87B-05C189C68587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F1068F7F-FD60-4D7D-B8D6-2C023E03062A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{A933C33E-97BC-4E49-87FB-0A3D08A889B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE865189-F955-49B3-99CD-9BDBB18C2DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE865189-F955-49B3-99CD-9BDBB18C2DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE865189-F955-49B3-99CD-9BDBB18C2DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE865189-F955-49B3-99CD-9BDBB18C2DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CE1BBA-E950-4167-9FB8-F5D211E5FE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CE1BBA-E950-4167-9FB8-F5D211E5FE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CE1BBA-E950-4167-9FB8-F5D211E5FE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CE1BBA-E950-4167-9FB8-F5D211E5FE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3708D2-BE0A-492D-A87B-05C189C68587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3708D2-BE0A-492D-A87B-05C189C68587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3708D2-BE0A-492D-A87B-05C189C68587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3708D2-BE0A-492D-A87B-05C189C68587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A933C33E-97BC-4E49-87FB-0A3D08A889B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A933C33E-97BC-4E49-87FB-0A3D08A889B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A933C33E-97BC-4E49-87FB-0A3D08A889B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A933C33E-97BC-4E49-87FB-0A3D08A889B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE865189-F955-49B3-99CD-9BDBB18C2DA5} = {04C62A7F-E702-4208-9B4C-8AC57EF0A6E4}
+		{A5CE1BBA-E950-4167-9FB8-F5D211E5FE1B} = {04C62A7F-E702-4208-9B4C-8AC57EF0A6E4}
+		{EA3708D2-BE0A-492D-A87B-05C189C68587} = {04C62A7F-E702-4208-9B4C-8AC57EF0A6E4}
+		{A933C33E-97BC-4E49-87FB-0A3D08A889B5} = {F1068F7F-FD60-4D7D-B8D6-2C023E03062A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4020621-C351-47FC-BF3C-DEC48E150219}
+	EndGlobalSection
+EndGlobal
