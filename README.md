@@ -45,7 +45,9 @@ Yes, only past days are forbidden.
 
 ### To Improve
 If I had more time, I intend to make some improvements to my current solution which I can mention some of them:
-- More Unit Tests to cover all parts of the application
+- More Unit Tests to cover all parts of the application. I only provided a few of them on Aggregates due to the lack of time.
 - Implementing an Azure function triggered by time(every midnight, preferably) and using SQL binding to delete weather forecasts for past days, at least in the Public Weather Forcast database.
 - Implementing a retry mechanism dealing with transient faults for messaging on both sides in case of network errors, Internal Server Errors in the Service Bus, Throttling Exceptions, and so on.
 - Think much more about possible exceptions in general, predict and handle them.
+- Functional Tests
+- Integration Tests
